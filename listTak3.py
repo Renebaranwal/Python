@@ -1,0 +1,1 @@
+print("i should be studying sql now")

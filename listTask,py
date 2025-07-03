@@ -1,0 +1,43 @@
+'''#1. create a to do list manager
+#create a list of tasks
+#add new tasks
+#mark a task as done by removing it.
+#show the number of remaining task
+
+#2. student Scores
+#list of student scores: [88,92,79,93,85]
+#find the highest and lowest score.
+#calculate avg score
+
+#3.Guest list for a party
+#create a guest list.
+#check if a guest is on the list
+#add a new guest
+#remove a guest who cancels.
+
+#Tuple task
+#Flight data analysis
+#given a tuple of flights (flight_number,origin,destination,duration,duration_in_minutes):
+flights=(
+    ("AA123","NYC","LAX","360"),
+    ("BA456","LAX","CHI","270"),
+    ("CA789","CHI","NYC","120"),
+    ("DA012","NYC","MIA","180"),
+    ("EA345","MIA","LAX","330")
+
+)
+TASK:
+print all the originating from NYC
+Sort flights duration (shortest to longest) and print the sorted list.
+find the flight with the duration
+'''
+scores = [88, 92, 79, 85, 93]
+
+highest = max(scores)
+lowest = min(scores)
+average = sum(scores) / len(scores)
+
+print(f"Scores: {scores}")
+print(f"Highest Score: {highest}")
+print(f"Lowest Score: {lowest}")
+print(f"Average Score: {average:.2f}")
